@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        background-color: #260c0e;
+    }
+
+    .hero{   
+        display: flex;
+        z-index: 5;
+        position: relative; 
+        top: -550px;
+        margin-top: -50px;        
+        margin-left: 60px; 
+    }
+
+    .heroSection{
+        z-index: 5;
+        position: relative;
+        margin-left: 60px;
+    }
+
+    .heroText{
+        font-size: 72px;
+        width: 60%;
+        text-wrap:wrap;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .imgBack{
+        width: 100%;
+    }
+
+    .heroImage{
+        z-index: 1;
+        top: -1000px;
+    }
+
+    .heroCTA{
+        padding: 16px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #a40001;
+        border: 0.5px solid red;
+        border-radius: 8px;
+    }
+
+    .heroCTA a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .navBar{
+        margin: 20px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
+        position: relative;
+        top: -1100px;
+        color: white;
+    }
+
+    .logo{
+        margin-left: 36px;
+    }
+
+    .logoImage{
+        width: 5%;        
+    }
+
+    .right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .searchBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0.5px solid white;
+        border-radius: 8px;
+        padding: 4px 24px; 
+        opacity: 0.5;
+        margin-right:60px;
+    }
+
+    .searchBar p{     
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .searchBar i{
+        margin-left: 32px;
+        margin-right: 0px;
+    }
+
+    .icon{
+        
+        margin-left: 16px;
+    }
+
+    .city{
+        margin: 0px 12px;
+    }
+
+    .city p{
+        font-size: 12px;
+    }
+
+    .city p span{
+        margin-left: 4px; 
+        margin-right:12px;
+    }
+
+    .redBar{
+    background-color: #a40001;
+    width: 50px;
+    height: 520px;
+    z-index: 3;
+    position: relative;
+    top: -1270px;
+    
+    }
+
+    .ashBar{
+    background-color:#131313;
+    width: 300px;
+    height:950px;
+    z-index: 2;
+    position: relative;
+    top: -1870px;
+    }
+
+    .sectionOne{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 2;
+        position: relative;
+        top: -1800px;
+        color: white;
+    }
+
+    .bar{
+        width: 6px;
+        height: 150px;
+        border-radius: 8px;
+        background-color: #31191b;
+    }
+
+    .mainText{
+        font-size: 36px;
+
+    }
+
+    .carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand{
+        width: 20%;
+        padding: 20px;
+    }
+    .oneText{
+        width: 30%;
+        padding: 20px;
+        line-height: 24px;
+    }
+
+    .prev{
+        font-size: 80px;
+        position: relative;
+        right: 400px;
+        top: -50px;
+        
+    }
+
+    .next{
+        font-size: 80px;
+        position: relative;
+        left: 400px;
+        top: -150px;
+    }
+    
+    .carBrand{
+        margin: 20px 0px 20px 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        position: relative;
+        top: -230px;
+    }
+
+    .sectionTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: -1900px;
+    }
+
+    .sectionTwo h2{
+        font-size: 32px;
+    }
+    .mainTextTwo{
+
+
+    }
+
+    .boxGrid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upperBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .activeOne{
+        width: 27%;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 24px;
+        margin: 12px;
+        background-color: #a40001;
+    }
+
+    .activeOne h3{
+        font-size: 40px;
+        font-weight: 400;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+    
+    .activeOne h4{
+        font-size: 24px;
+        font-weight: 700;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+    
+    .inactiveTwo{
+        width: 27%;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 24px;
+        margin: 12px;
+        background-color: #31191b;
+    }
+
+    .inactiveTwo h3{
+        font-size: 40px;
+        font-weight: 400;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+    
+    .inactiveTwo h4{
+        font-size: 24px;
+        font-weight: 700;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+    
+    .inactiveThree{
+        width: 754px;        
+        padding: 8px 24px;
+        margin: 12px;
+        background-color:#31191b;
+    }
+
+    .inactiveThree h3{
+        font-size: 40px;
+        font-weight: 400;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+    
+    .inactiveThree h4{
+        font-size: 24px;
+        font-weight: 700;
+        margin: -4px 0px;
+        padding: 4px 0px;
+    }
+
+    /* .threeDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .threeDiv p{
+        text-wrap: wrap;
+        width: 50%;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .carBrandThree{
+        width: 55%;
+        z-index: 1;
+        position: relative;
+        left: 400px;
+        bottom: 150px;
+        margin-bottom: -150px;
+    }
+
+    .sectionThree{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 96px;
+    }
+
+    .sectionThree h1{
+        font-size: 100px;
+        stroke-width: 3px solid red;
+    }
+
+    .sectionThree h2{
+        font-size: 32px;
+    }
+
+    /* .SixGrid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .miniCar{
+        width: 50%;
+        margin: 10px 0px;
+    }
+
+    .sixGridTop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+        width: 75%;
+    }
+    
+    .sixGridBottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 12px 12px 12px ;
+        width: 75%;
+    }
+
+    .prodOne, .prodTwo, .prodThree, .prodFour, .prodFive, .prodSix{
+        width: 50%;
+        padding:12px -20px;
+        margin: 12px;
+        background-color: #31191b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .prodOne p, .prodTwo p, .prodThree p, 
+    .prodFour p, .prodFive p, .prodSix p {
+        margin-top: -16px;
+        text-align: left;
+    }
+
+    .paging{
+        margin: 20px 0px;
+    }
+
+    .paging a{
+        text-decoration: none;
+        color: white;
+        margin: 8px;
+    }
+
+    .lineBreak{
+        background-color: #a40001;
+        margin: 60px 0px;
+        height: 1px;
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    footer .footerLogo{
+        width: 10%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    footer p{
+        color: white;
+        margin-bottom: 80px;
+    }
+
